@@ -17,7 +17,7 @@ public class App {
 
         directions.chars().mapToObj(d -> String.valueOf((char) d)).forEach(d -> pokemonWorld.move(ash, d));
 
-        System.out.println(pokemonWorld.getMap());
+        // System.out.println(pokemonWorld.getMap());
         System.out.println(ash.getCaughtPokemons());
         x.close();
     }
