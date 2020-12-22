@@ -12,6 +12,6 @@ public class EmptyObject implements WorldObject {
 
   @Override
   public boolean equals(Object o) {
-    return o instanceof Object;
+    return o instanceof EmptyObject;
   }
 }
